@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useState } from 'react';
 // return JSX
 
 
@@ -8,7 +8,7 @@ function FunctionComponent(props) {
 
     return (
         <>
-        
+            <p>Hello, {name}. {message}</p>
         </>
     )
 }
